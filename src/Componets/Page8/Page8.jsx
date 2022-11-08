@@ -1,8 +1,8 @@
 import React from "react";
-import "./Page2.css";
+import "./Page8.css";
 import logo from "../../Assets/Images/logo3.png";
 
-function Page2() {
+function Page8() {
   return (
     <div>
       <div className="mainsection">
@@ -53,7 +53,7 @@ function Page2() {
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-              <a className="fw-bold navbar-brand" href="#">
+              <a className="fw-bold navbar-brand " href="#">
                 All Orders
               </a>
               <button
@@ -74,6 +74,7 @@ function Page2() {
               />
             </div>
             <div>
+              '
               <div className="d-flex px-4 ">
                 <div className="p2-selection mx-2">
                   <select
@@ -124,13 +125,13 @@ function Page2() {
                 <thead className="s2-table-nava">
                   <tr>
                     <th scope="col">Order ID</th>
-                    <th scope="col">Date and Time</th>
+                    <th scope="col">Date & Time</th>
                     <th scope="col">Customer</th>
                     <th scope="col">Items</th>
                     <th scope="col">Payment</th>
                     <th scope="col">Status</th>
                     <th scope="col">Amount</th>
-                    <th scope="col">Deliverd By</th>
+                    <th scope="col">Area/Locality</th>
                   </tr>
                 </thead>
                 <tbody class="table-group-divider  my-5">
@@ -201,7 +202,7 @@ function Page2() {
                   </tr>
                   <tr>
                     <th scope="row ">#12345</th>
-                    <td>05.10.22, 06:01 PM</td>
+                    <td>Date</td>
                     <td>CustomerName </td>
                     <td> 1 </td>
                     <td>COD</td>
@@ -241,4 +242,4 @@ function Page2() {
   );
 }
 
-export default Page2;
+export default Page8;
