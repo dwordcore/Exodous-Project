@@ -7,6 +7,10 @@
   background-color: rgb(15, 57, 15);
   width: 15%;
   padding: 100px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .s1-btn {
   width: 150px;
@@ -22,11 +26,6 @@
   background-color: rgba(127, 255, 212, 0);
   color: white;
   padding: 10px;
-}
-
-.s2-logotitle {
-  font-size: 10px;
-  color: rgb(231, 227, 227);
 }
 
 .section2 {
@@ -46,9 +45,9 @@
 }
 
 /* .p2-selection{
-    width: 150px;
-    height: 20px;
-} */
+        width: 150px;
+        height: 20px;
+    } */
 
 .s2-btn {
   background-color: rgba(204, 202, 202, 0.803);

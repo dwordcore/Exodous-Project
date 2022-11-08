@@ -1,5 +1,6 @@
 import React from "react";
 import "../Page3/Page3.css";
+import logo from "../../Assets/Images/logo3.png";
 
 function Page3() {
   return (
@@ -7,9 +8,9 @@ function Page3() {
       <div className="mainsection">
         <div className="section1">
           <div className="logo">
-            {/* <img className="logo" src="logo2" /> */}
-            <h2>Endoxous</h2>
-            <h6 className="s2-logotitle">international private limited</h6>
+            <img className="logo" src={logo} />
+            {/* <h2>Endoxous</h2>
+            <h6 className="s2-logotitle">international private limited</h6> */}
           </div>
           <div>
             <ul className="navbar-nav justify-content-end flex-grow-1 ">
