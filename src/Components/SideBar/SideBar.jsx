@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../Assets/Images/logo3.png";
+import "./SideBar.css";
 
 const NavBar = () => {
   return (
@@ -7,26 +8,28 @@ const NavBar = () => {
       <div className="section1">
         <div className="logo">
           <img className="logo" src={logo} />
+          {/* <h2>Endoxous</h2>
+        <h6 className="s2-logotitle">international private limited</h6> */}
         </div>
         <div>
           <ul className="navbar-nav justify-content-end flex-grow-1 ">
             <li className="nav-item m-2">
-              <button className="s1-btn btn px-4 ">Home</button>
+              <button className="s1-btn btn btn-sm px-4 ">Home</button>
             </li>
             <li className="nav-item m-2">
-              <button className="s1-btn btn px-4 ">Orders</button>
+              <button className="s1-btn btn btn-sm px-4 ">Orders</button>
             </li>
             <li className="nav-item m-2">
-              <button className="s1-btn btn px-4 ">All Nurseries</button>
+              <button className="s1-btn btn btn-sm px-4 ">All Nurseries</button>
             </li>
             <li className="nav-item m-2">
-              <button className="s1-btn btn px-4 ">Payments</button>
+              <button className="s1-btn btn btn-sm px-4 ">Payments</button>
             </li>
             <li className="nav-item m-2">
-              <button className="s1-btn btn  px-4 ">Nurseries</button>
+              <button className="s1-btn btn btn-sm px-4 ">Nurseries</button>
             </li>
             <li className="nav-item m-2">
-              <button className=" s1-btn btn  px-4 ">Logout</button>
+              <button className=" s1-btn btn btn-sm px-4 ">Logout</button>
             </li>
           </ul>
         </div>

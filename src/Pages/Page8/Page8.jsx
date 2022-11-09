@@ -6,11 +6,9 @@ function Page8() {
   return (
     <div>
       <div className="mainsection">
-        <div className="section1">
+        {/* <div className="section1">
           <div className="logo">
             <img className="logo" src={logo} />
-            {/* <h2>Endoxous</h2>
-            <h6 className="s2-logotitle">international private limited</h6> */}
           </div>
           <div>
             <ul className="navbar-nav justify-content-end flex-grow-1 ">
@@ -34,7 +32,7 @@ function Page8() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <div className="section2 ">
           <nav
             class="s2-navabar navbar navbar-expand-lg "
@@ -54,7 +52,7 @@ function Page8() {
               </button>
 
               <a className="fw-bold navbar-brand " href="#">
-                All Orders
+                My Customer
               </a>
               <button
                 class="btn btn-outline-success btnround"

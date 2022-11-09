@@ -6,7 +6,7 @@ function Page6() {
   return (
     <div>
       <div className="mainsection">
-        <div className="section1">
+        {/* <div className="section1">
           <div className="logo">
             <img className="logo" src={logo} />
           </div>
@@ -32,7 +32,7 @@ function Page6() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <div className="section2 ">
           <nav
             className="s2-navabar navbar navbar-expand-lg "

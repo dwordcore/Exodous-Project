@@ -1,4 +1,4 @@
-import NavBar from "./Components/NavBar/NavBar";
+import SideBar from "./Components/SideBar/SideBar";
 import Page2 from "./Pages/Page2/Page2";
 import Page3 from "./Pages/Page3/Page3";
 import Page4 from "./Pages/Page4/Page4";
@@ -9,7 +9,7 @@ import Page8 from "./Pages/Page8/Page8";
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <SideBar />
       <Page2 />
       <Page3 />
       <Page4 />
