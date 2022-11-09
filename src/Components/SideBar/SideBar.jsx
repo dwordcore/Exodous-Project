@@ -1,8 +1,9 @@
 import React from "react";
 import logo from "../../Assets/Images/logo3.png";
 import "./SideBar.css";
+import { NavLink } from "react-router-dom";
 
-const NavBar = () => {
+const SideBar = () => {
   return (
     <div>
       <div className="section1">
@@ -14,22 +15,34 @@ const NavBar = () => {
         <div>
           <ul className="navbar-nav justify-content-end flex-grow-1 ">
             <li className="nav-item m-2">
-              <button className="s1-btn btn btn-sm px-4 ">Home</button>
+              <NavLink to="/">
+                <button className="s1-btn btn btn-sm px-4 ">Home</button>
+              </NavLink>
             </li>
             <li className="nav-item m-2">
-              <button className="s1-btn btn btn-sm px-4 ">Orders</button>
+              <NavLink to="/orders">
+                <button className="s1-btn btn btn-sm px-4 ">Orders</button>
+              </NavLink>
             </li>
             <li className="nav-item m-2">
-              <button className="s1-btn btn btn-sm px-4 ">All Nurseries</button>
+              <NavLink to="/salesreport">
+                <button className="s1-btn btn btn-sm px-4 ">Products</button>
+              </NavLink>
             </li>
             <li className="nav-item m-2">
-              <button className="s1-btn btn btn-sm px-4 ">Payments</button>
+              <NavLink to="/ordersreport">
+                <button className="s1-btn btn btn-sm px-4 ">Payments</button>
+              </NavLink>
             </li>
             <li className="nav-item m-2">
-              <button className="s1-btn btn btn-sm px-4 ">Nurseries</button>
+              <NavLink to="/allnurseries">
+                <button className="s1-btn btn btn-sm px-4 ">Nurseries</button>
+              </NavLink>
             </li>
             <li className="nav-item m-2">
-              <button className=" s1-btn btn btn-sm px-4 ">Logout</button>
+              <button className=" s1-btn btn btn-sm px-4 ">
+                <NavLink>Logout</NavLink>
+              </button>
             </li>
           </ul>
         </div>
@@ -38,4 +51,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default SideBar;

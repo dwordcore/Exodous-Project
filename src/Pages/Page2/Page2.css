@@ -30,6 +30,8 @@
 }
 
 .section2 {
+  position: relative;
+  left: 15%;
   width: 85%;
   background-color: rgba(245, 245, 245, 0.887);
 }
